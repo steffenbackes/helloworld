@@ -2,7 +2,7 @@ package com.helloworld;
 
 public class Main {
 
-	public static void main(int argc, String[] argv){
+	public static void main(String[] argv){
 		sayHello();
 	}
 	
@@ -10,6 +10,7 @@ public class Main {
 	public static void sayHello(){
 		// Test
 		System.out.println("Hello");
+                System.out.println("World!");
 	}
 
 }
